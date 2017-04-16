@@ -16,9 +16,9 @@
 				<h2 class="entry-title"><?php the_title(); ?></h2> 
 			<?php else : ?>
 				<?php if ( $deeblogi_post_index == 0) : ?>
-					<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+					<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 				<?php else : ?>
-					<h2 class="entry-title entry-title-small"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+					<h1 class="entry-title entry-title-small"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 				<?php endif; ?>
 			<?php endif; // is_single() ?>
 			
