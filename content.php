@@ -42,7 +42,7 @@
 					echo '<p style="text-align: center;"><a href="' . get_the_permalink()  . '">Lue koko juttu <i class="fa fa-angle-double-right"></i></a></p>';
 				}
 				
-				echo '<p style="text-align: center;"><i class="fa fa-ellipsis-h"></i></p>';
+				echo '<hr>';
 				echo '</div>';
 			}
 		?>
