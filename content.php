@@ -18,9 +18,9 @@
 			<?php endif; ?>
 		
 			<?php if ( is_single() ) : ?>
-				<h2 class="entry-title"><?php the_title(); ?></h2> 
+				<h1 class="entry-title"><?php the_title(); ?></h1> 
 			<?php else : ?>
-				<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+				<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 			<?php endif; // is_single() ?>
 			
 			<p class="post-meta"><i class="glyphicon glyphicon-calendar"></i> <?php echo get_the_date(); ?> | <i class="glyphicon glyphicon-comment"></i> <a href="<?php comments_link(); ?> "><?php echo comments_number(); ?></a> </p>

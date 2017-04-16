@@ -259,8 +259,8 @@ function deeblogi_widgets_init() {
 		'description' => __( 'Appears on front page', 'deeblogi' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<p class="widget-title">',
+		'after_title' => '</p>',
 	) );
 
 	register_sidebar( array(
@@ -269,8 +269,8 @@ function deeblogi_widgets_init() {
 		'description' => __( 'Appears on footer', 'deeblogi' ),
 		'before_widget' => '<div id="%1$s" class="widget footer-widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<p class="widget-title">',
+		'after_title' => '</p>',
 	) );
 	
 	register_sidebar( array(
@@ -279,8 +279,8 @@ function deeblogi_widgets_init() {
 		'description' => __( 'Appears on footer', 'deeblogi' ),
 		'before_widget' => '<div id="%1$s" class="widget footer-widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<p class="widget-title">',
+		'after_title' => '</p>',
 	) );
 	
 	register_sidebar( array(
@@ -289,8 +289,8 @@ function deeblogi_widgets_init() {
 		'description' => __( 'Appears on footer', 'deeblogi' ),
 		'before_widget' => '<div id="%1$s" class="widget footer-widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<p class="widget-title">',
+		'after_title' => '</p>',
 	) );
 	
 	register_sidebar( array(
@@ -299,8 +299,8 @@ function deeblogi_widgets_init() {
 		'description' => __( 'Appears on footer', 'deeblogi' ),
 		'before_widget' => '<div id="%1$s" class="widget footer-widget %2$s">',
 		'after_widget' => '</div>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<p class="widget-title">',
+		'after_title' => '</p>',
 	) );
 	
 	register_sidebar( array(
@@ -309,8 +309,8 @@ function deeblogi_widgets_init() {
 		'description' => __( 'Appears on single posts', 'deeblogi' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<p class="widget-title">',
+		'after_title' => '</p>',
 	) );
 	
 	register_sidebar( array(
@@ -319,8 +319,8 @@ function deeblogi_widgets_init() {
 		'description' => __( 'Appears on single posts', 'deeblogi' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<p class="widget-title">',
+		'after_title' => '</p>',
 	) );
 	
 	register_sidebar( array(
@@ -329,8 +329,8 @@ function deeblogi_widgets_init() {
 		'description' => __( 'Appears on top of index pages', 'deeblogi' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<p class="widget-title">',
+		'after_title' => '</p>',
 	) );
 }
 add_action( 'widgets_init', 'deeblogi_widgets_init' );

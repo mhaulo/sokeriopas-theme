@@ -14,8 +14,8 @@ get_header(); ?>
 	
 	<div class="hero">
 		<div class="site-title-container">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="site-title"><h1 class="site-title"><?php echo get_bloginfo( 'name' ); ?></h1></a>
-			<h2><?php echo get_bloginfo( 'description' ); ?></h2>
+			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="site-title"><?php echo get_bloginfo( 'name' ); ?></a></p>
+			<p class="site-description"><?php echo get_bloginfo( 'description' ); ?></p>
 		</div>
 	</div>
 </div>

@@ -138,13 +138,15 @@ ol, ul {
 	background: #173857;
 }
 
-.site_title_container h2 {
+.site-description {
 	color: #c7cad1;
 	color: rgba(256, 256, 256, 0.35);
 	text-align: center;
 	margin: 0;
 	font-family: "Roboto Slab";
 	font-size: 21px;
+	font-weight: bold;
+	
 }
 
 .site_title_container h3 {
@@ -292,7 +294,7 @@ article {
 	color: #428bca;
 }
 
-h2.entry-title  {
+.entry-title  {
 	color: #000;
 	color: #254663;
 	margin-bottom: 13px;
@@ -306,9 +308,10 @@ h2.entry-title  {
 	font-size: 30px;
 	text-align: center;
 	word-wrap: break-word;
+	text-transform: uppercase;
 }
 
-h2.entry-title-small {
+.entry-title-small {
 	font-size: 30px;
 }
 
@@ -541,7 +544,6 @@ footer.page-footer {
 }
 
 .site-title-container p {
-	max-width: 800px;
 	text-align: center;
 	padding-left: 0;
 	padding-right: 0;
@@ -549,17 +551,20 @@ footer.page-footer {
 
 .site-title {
 	color: #fff;
-	font-size: 40px;
+	font-size: 55px;
 	font-family: "Dhurjati";
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	padding-top: 10px;
+	line-height: 0.7em;
+	margin-bottom: 15px;
 }
 
 .hero {
 	width: 100%;
-	padding-bottom: 5%;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	clear: both;
 }
 
 a.site-title{
@@ -725,7 +730,7 @@ footer h1 {
 	/*padding: 0;*/
 }
 
-h3.widget-title {
+.widget-title {
 	margin: 0;
 	background: #fff;
 	color: #000;
@@ -736,6 +741,8 @@ h3.widget-title {
 	padding: 6px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+	font-family: "Roboto Slab";
+	font-weight: bold;
 }
 
 .footer-widget h3 {
@@ -919,9 +926,17 @@ a.contact_link {
 	.post-image-container {
 		max-height: 315px;
 	}
+	
+	.site-title {
+		font-size: 70px;
+	}
 }
 
 @media (min-width: 768px) {
+	.hero {
+		margin-bottom: 80px;
+	}
+	
 	.sidebar {
 		margin-top: 35px;
 	}
@@ -964,9 +979,8 @@ a.contact_link {
 		margin-top: 35px;
 	}
 	
-	h2.entry-title  {
+	.entry-title  {
 		font-size: 33px;
- 		text-transform: uppercase;
 		margin-left: 40px;
 		margin-right: 40px;
 		margin-top: 0;
@@ -1005,9 +1019,8 @@ a.contact_link {
 	}
 	
 	.site-title {
-		font-size: 65px;
-		padding-top: 50px;
-		padding-bottom: 0px;
+		font-size: 82px;
+		margin-bottom: 15px;
 	}
 	
 	.navbar .nav,
@@ -1067,18 +1080,8 @@ a.contact_link {
 		font-size: 110px;
 	}
 	
-	.site-title {
-		font-size: 90px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-	
 	.site-title-container p {
-		text-align: left;
-	}
-	
-	.hero {
-		padding-bottom: 0;
+		text-align: center;
 	}
 }
 
