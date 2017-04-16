@@ -361,6 +361,8 @@ hr.post-divider {
 article hr {
 	margin-top: 50px;
 	margin-bottom: 50px;
+	border-top: 4px dotted #242424;
+	width: 20px;
 }
 
 .post_content {
