@@ -79,22 +79,6 @@
 		
 		<?php comments_template( '', true ); ?>
 		
-		<?php if (is_single()) : ?>
-			<?php //get_template_part('author-info-row', ''); ?>
-			<div class="single-post-nav">
-				
-				<hr>
-				<div class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '<i class="fa fa-arrow-left"></i>', 'Previous post link', 'deeblogi' ) . '</span> %title' ); ?></div>
-				
-				<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '<i class="fa fa-arrow-right"></i>', 'Next post link', 'deeblogi' ) . '</span>' ); ?></div>
-				<div style="clear:both"></div>
-				<hr>
-			</div>
-			
-			
-			
-		<?php endif; ?>
-		
 	</div>
 	
 	

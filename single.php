@@ -11,13 +11,6 @@ get_header(); ?>
 
 <div class="site_title_container"  style="background-image: url(<?php header_image(); ?>);background-size: cover;">
 	<?php get_template_part( 'navigation' ); ?> 
-	
-	<div class="hero">
-		<div class="site-title-container">
-			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="site-title"><?php echo get_bloginfo( 'name' ); ?></a></p>
-			<p class="site-description"><?php echo get_bloginfo( 'description' ); ?></p>
-		</div>
-	</div>
 </div>
 
 
